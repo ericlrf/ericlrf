@@ -95,7 +95,7 @@ function Index() {
     <main className="min-h-screen">
       <header className="grid-bg border-b border-border">
         <div className="mx-auto max-w-6xl px-6 py-24 md:py-36">
-          <p className="font-mono text-sm text-primary">// Recife, PE · Dados & IA</p>
+          <p className="font-mono text-sm text-primary">// Dados · Machine Learning · IA</p>
           <h1 className="mt-6 text-5xl font-semibold leading-[1.05] md:text-8xl">
             Eric<br />França
           </h1>
