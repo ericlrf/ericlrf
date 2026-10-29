@@ -44,11 +44,10 @@ Sou **Analista de Sistemas** e **Engenheiro de Dados / Machine Learning**, com u
 
 ---
 
-## 📊 Estatísticas do GitHub
+## 📈 Sequência de Contribuições
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=ericlrf&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ericlrf&layout=compact&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ericlrf&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
 ---
