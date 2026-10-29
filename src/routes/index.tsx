@@ -21,13 +21,13 @@ const skills = [
   ["Engenharia de Software", "APIs REST, integração de sistemas, testes e versionamento com Git."],
   ["Pesquisa & Colaboração", "Experimentação, documentação técnica, Kanban, PLN e LLMs."],
 ];
-const jobs = [
+const jobs: [string, string, string][] = [
   ["2026", "Pesquisador PDII Nível B", "SENAI Pernambuco"],
   ["2025–2026", "Pesquisador PDII Nível A", "SENAI Pernambuco"],
   ["2023–2026", "Assessor de TI", "Banco do Brasil"],
   ["2022–2023", "Analista de TI", "DATAPREV"],
 ];
-const other = [
+const other: [string, string, string][] = [
   ["2021–2022", "Pesquisador", "IMD/UFRN — FUNPEC"],
   ["2020–2021", "Pesquisador", "AiBox Lab/UFRPE — FACEPE"],
   ["2019–2020", "Assistente de Central de Processamento de Dados", "F. B. Com. de Tec."],
@@ -37,13 +37,13 @@ const other = [
   ["2014–2016", "Monitor", "Espaço Ciência — FACEPE"],
   ["2014; 2018", "Desenvolvedor freelancer", "Projetos independentes"],
 ];
-const edu = [
+const edu: [string, string, string][] = [
   ["2022–2025", "Mestrado em Ciência da Computação", "UFPE"],
   ["2020–2021", "Especialização em Inteligência Computacional Aplicada", "UFRPE"],
   ["2013–2019", "Tecnólogo em Análise e Desenvolvimento de Sistemas", "IFPE"],
   ["2011–2016", "Técnico em Redes de Computadores", "SENAI Pernambuco"],
 ];
-const phd = [
+const phd: [string, string, string][] = [
   ["2026", "Ciência da Computação (aluno especial)", "UFPE"],
   ["2026", "Ciência da Computação (aluno especial)", "USP/ICMC"],
   ["2025", "Ciência da Computação (aluno especial)", "Unicamp"],
@@ -74,7 +74,7 @@ function Section({ n, title, children }: { n: string; title: string; children: R
   );
 }
 
-function Timeline({ items }: { items: string[][] }) {
+function Timeline({ items }: { items: [string, string, string][] }) {
   return (
     <ul className="divide-y divide-border">
       {items.map(([y, t, o]) => (
